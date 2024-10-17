@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+/* Course Schedule Table Styles */
+.course-schedule {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+}
+
+.course-schedule th, .course-schedule td {
+  padding: 12px 15px;
+}
+
+.course-schedule th {
+  background-color: #007bff;
+  color: white;
+}
+
+.course-schedule td {
+  background-color: #f1f9ff;
+}
+
+.course-schedule tr:hover td {
+  background-color: #d0e7ff;
+}
+
+/* Product Comparison Table Styles */
+.product-comparison {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.product-comparison th, .product-comparison td {
+  border-bottom: 2px solid #ddd;
+}
+
+.product-comparison th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.product-comparison td {
+  text-align: center;
+}
+
+.product-comparison tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Pet Info Chart Styles */
+.pet-info {
+  width: 100%;
+}
+
+.pet-info th, .pet-info td {
+  padding: 10px;
+}
+
+.pet-info th {
+  font-style: italic;
+}
+
+.pet-info td img {
+  border-radius: 50%;
+}
+
+.pet-info tbody tr:hover {
+  background-color: #eafff1;
+}
